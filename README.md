@@ -1,6 +1,6 @@
 # npmtest-gulp-webserver
 
-#### test coverage for  [gulp-webserver (v0.9.1)](https://github.com/schickling/gulp-webserver)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-webserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-webserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-webserver.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-webserver)
+#### basic test coverage for  [gulp-webserver (v0.9.1)](https://github.com/schickling/gulp-webserver)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-webserver.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-webserver) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-webserver.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-webserver)
 
 #### Gulp plugin to run a local webserver with LiveReload
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-webserver/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-webserver/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-webserver/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-webserver/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-webserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-webserver/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-webserver/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-webserver/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-webserver/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-webserver/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-webserver/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-webserver/build/coverage.html/index.html)
 
@@ -90,7 +90,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "0.9.1"
+    "version": "0.9.1",
+    "bin": {}
 }
 ```
 
